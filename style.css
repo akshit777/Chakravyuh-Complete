@@ -990,9 +990,12 @@ a:hover, a:active {
 }
 
 .events-partners-logos .event-partner-logo {
+    display: flex;
+    flex-wrap: wrap
     width: 20%;
-    min-width: 220px;
+    min-width: 20px;
     margin-top: 80px;
+    margin-left: 30px;
     text-align: center;
 }
 
@@ -2181,5 +2184,5 @@ ul.tabs-nav .tab-nav.active {
 }
 .entry-content-1{
     font-size: 20px;
-    color: blanchedalmond
+    color: blanchedalmond;
 }
